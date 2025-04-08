@@ -1,0 +1,58 @@
+html{
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+}
+
+#image{
+	height: 300px;
+	width: auto;
+}
+
+.header{
+	background-color: royalblue;
+	color: beige;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 0 0 50px 50px;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+.header>h1{
+	margin-bottom: -10px;
+	font-size: 2.5rem;
+}
+
+.header>p{
+	font-size: 1.25rem;
+}
+
+#image{
+	display: block;
+	margin: 20px auto;
+	border-radius: 5%;
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+figcaption{
+	text-align: center;
+	margin-top: 15px;
+}
+
+section{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	padding: 1rem;
+	font-size: 0.9rem;
+}
